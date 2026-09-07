@@ -1,6 +1,6 @@
 # Parameter Inference for 21-cm Cosmology
 
-Welcome to the computational module on parameter estimation for 21-cm cosmology. In this repository, we explore how to extract the mean ionization fraction of the intergalactic medium ($Q_{\mathrm{HII}}$) from noisy, forward-modeled mock observations. 
+Welcome to the computational module on parameter estimation for 21-cm cosmology. In this repository, we explore how to extract the mean ionization fraction of the intergalactic medium ($Q_{\mathrm{HII}}$) from noisy, forward-modelled mock observations. 
 
 Students will transition from basic descriptive statistics of cosmic variance through traditional sampling techniques, ultimately training a Neural Posterior Estimator (NPE) to perform Simulation-Based Inference (SBI).
 
@@ -37,10 +37,12 @@ If you prefer to run the forward models yourself, execute the relevant cells wit
 
 ### Python Scripts
 * **`sim_utils.py`**: The core simulation utilities. This contains the functions responsible for generating the toy 21-cm power spectrum realizations and handling the random seeds. 
+* **`run_mcmc.py`**: This runs a MCMC sampler assuming a Gaussian likelihood.
+* **`run_realizations.py`**: This runs multiple realizations for the ionization field, either to understand cosmic variance or to generate samples for the SBI.
 
 ### Jupyter Notebooks
 * **`analyze_cosmic_variance.ipynb`**: Establishes our theoretical noise floor. You will fix the ionization fraction and vary the initial density seeds to quantify the irreducible sample variance in our $P_{21}(k)$ bins.
-* **`analyze_abc_mcmc_sbi_2.ipynb`**: The main inference pipeline. This notebook compares three distinct methodologies:
+* **`analyze_abc_mcmc_sbi.ipynb`**: The main inference pipeline. This notebook compares three distinct methodologies:
   * **Approximate Bayesian Computation (ABC):** Rejection sampling based on Euclidean distance thresholds.
   * **MCMC:** Traditional likelihood-based inference used here as a baseline for posterior shape and convergence.
   * **Simulation-Based Inference (SBI):** Training a Neural Spline Flow (NSF) to model the complex posterior $P(\theta \mid d)$ directly from the simulation bank.
