@@ -9,8 +9,8 @@ Students will transition from basic descriptive statistics of cosmic variance th
 **1. Clone the Repository**
 Pull this repository to your local machine:
 ```bash
-git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
-cd your-repo-name
+git clone https://github.com/rctirthankar/sbi_script_demonstration.git
+cd sbi_script_demonstration
 ```
 
 **2. Environment Setup**
