@@ -1,0 +1,31 @@
+# Environment Paths
+base_dir: "/home/tirth/data/Teaching/IMSc_School_2026/SBI/Conda"
+scratch_dir: "/dev/shm"  # Or "/tmp", making the temporary I/O location explicit
+
+# Common simulation settings and cosmology
+box: 32.0
+ngrid: 16
+zlist: [8.0]
+outroot: "snap"
+dx: 1.0
+omega_m: 0.308
+omega_b: 0.0482
+h: 0.678
+sigma_8: 0.829
+ns: 0.961
+log10Mmin: 8.0
+
+# k-bin edges for the 21cm power spectrum
+kmin: 0.45
+kmax: 0.68
+nbins: 1
+
+# Prior settings for QHII (FIXED for Cosmic Variance)
+QHII_min: 0.4
+QHII_max: 0.4
+
+# Execution settings
+n_realizations: 100
+max_workers: 5
+save_interval: 50
+output_file: "cosmic_variance_results.npz"

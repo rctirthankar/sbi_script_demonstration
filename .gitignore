@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.sbi-logs/
+music/
+script/
+SBI_MCMC_shared_snap*/
+# Ignore local generated data if needed, but keep the PRE_RUN_DATA_FILES folder
+*.npz
+!PRE_RUN_DATA_FILES/*.npz
