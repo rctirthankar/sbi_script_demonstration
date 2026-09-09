@@ -20,7 +20,7 @@ cd sbi_script_demonstration
 This repository relies on a dedicated Conda environment to cleanly manage complex scientific dependencies like `torch` and `sbi`. Execute the provided shell script to build the environment:
 
 ```bash
-bash setenv.sh
+bash setup.sh
 ```
 
 *Note:* The environment setup may take several minutes, and in some cases considerably longer, depending on your internet connection, operating system, and Conda configuration. Installing and resolving scientific Python packages such as PyTorch and `sbi` can be relatively time-consuming. **Do not interrupt the script if it appears to be making progress.**
@@ -55,7 +55,7 @@ If you prefer to run the forward models yourself, execute the relevant cells wit
 
 ### Configuration & Environment
 
-* **`setenv.sh`**: Shell script to build the required Conda environment. The setup can take several minutes or longer because of the number of scientific dependencies that need to be installed.
+* **`setup.sh`**: Shell script to build the required Conda environment. The setup can take several minutes or longer because of the number of scientific dependencies that need to be installed.
 * **`config.yaml`**: The shared configuration file controlling the simulation parameters, prior bounds ($Q_{\mathrm{HII}}$ limits), and target mock observation settings.
 
 ### Python Scripts
@@ -77,7 +77,7 @@ If you prefer to run the forward models yourself, execute the relevant cells wit
 
 If you are new to the repository, the following order is recommended:
 
-1. **Set up the Conda environment** using `setenv.sh`.
+1. **Set up the Conda environment** using `setup.sh`.
 2. **Copy the pre-computed simulation files** from `PRE_RUN_DATA_FILES` if you want to avoid generating the simulations yourself.
 3. Run **`analyze_cosmic_variance.ipynb`** to understand the impact of cosmic/sample variance on the simulated $P_{21}(k)$.
 4. Run **`analyze_abc_mcmc_sbi.ipynb`** to compare ABC, MCMC, and SBI.
