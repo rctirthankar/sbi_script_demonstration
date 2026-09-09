@@ -107,7 +107,7 @@ If you modify the number of realizations, parameter ranges, or random seeds in `
 
 **Conda command not found**
 
-If the `conda` command is not recognized, make sure that Conda/Miniconda/Anaconda is installed and initialized in your shell before running `setenv.sh`.
+If the `conda` command is not recognized, make sure that Conda/Miniconda/Anaconda is installed and initialized in your shell before running `setup.sh`.
 
 **The environment setup appears to be taking a long time**
 
