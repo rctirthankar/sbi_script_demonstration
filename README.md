@@ -27,7 +27,7 @@ bash setup.sh
 
 Once the script finishes executing, ensure you activate the newly created Conda environment before running any `.py` scripts or launching Jupyter to open the notebooks.
 
-If the environment has already been created, you do not need to run `setenv.sh` again. You can activate it directly using:
+If the environment has already been created, you do not need to run `setup.sh` again. You can activate it directly using:
 
 ```bash
 conda activate sbi_script_env
