@@ -5,6 +5,7 @@ __pycache__/
 music/
 script/
 SBI_MCMC_shared_snap*/
+SBI_seed*/
 *.pt
 # Ignore local generated data if needed, but keep the PRE_RUN_DATA_FILES folder
 *.npz
