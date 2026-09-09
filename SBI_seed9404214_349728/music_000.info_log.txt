@@ -1,0 +1,114 @@
+14:10:45 | info    | Opening log file './music_000.info_log.txt'.
+14:10:45 | info    | Running music!, version 1.53
+14:10:45 | info    | Log is for run started Wed Sep  9 14:10:45 2026 
+14:10:45 | info    | Code was compiled using FFTW version 3.x
+14:10:45 | info    | Code was compiled for multi-threaded FFTW
+14:10:45 | info    | Running with a maximum of 8 OpenMP threads
+14:10:45 | info    | Code was compiled for double precision.
+14:10:45 | info    | Using k-space sampled transfer functions...
+14:10:45 | info    | Selecting transfer function plug-in  : eisenstein
+14:10:45 | info    | Selecting region generator plug-in  : box
+14:10:45 | info    | Selecting random number generator plug-in  : MUSIC
+14:10:45 | info    | Grid structure for Poisson solver:
+14:10:45 | info    |    Domain shifted by      (    0,    0,    0)
+14:10:45 | info    |    Level   5 :   offset = (    0,    0,    0)
+14:10:45 | info    |                    size = (   32,   32,   32)
+14:10:45 | info    | Grid structure for density convolution:
+14:10:45 | info    |    Domain shifted by      (    0,    0,    0)
+14:10:45 | info    |    Level   5 :   offset = (    0,    0,    0)
+14:10:45 | info    |                    size = (   32,   32,   32)
+14:10:45 | info    | Computing white noise...
+14:10:45 | info    | Found 0 density constraint(s) to be obeyed.
+14:10:45 | info    | Generating random numbers (2) with seed 9404214
+14:10:45 | info    | Generating random numbers w/ sample cube size of 32
+14:10:45 | info    | Storing white noise field in file 'wnoise_0005.bin'...
+14:10:45 | info    | Entering 2LPT branch
+14:10:45 | info    | Computing velocities...
+14:10:45 | info    | Using k-space transfer function kernel.
+14:10:45 | info    | Performing noise convolution on level   5
+14:10:45 | info    | Loading white noise from file 'wnoise_0005.bin'...
+14:10:45 | info    | Performing kernel convolution on (   32,   32,   32) grid
+14:10:45 | info    | Performing forward FFT...
+14:10:45 | info    | Performing backward FFT...
+14:10:45 | info    | Finished computing the density field in 0.007135s
+14:10:45 | info    | Grid mean density is 6.95293e-310. Correcting...
+14:10:45 | info    | Entering k-space Poisson solver...
+14:10:45 | info    | Performing forward transform.
+14:10:45 | info    | Performing backward transform.
+14:10:45 | info    | Done with k-space Poisson solver.
+14:10:45 | info    | Computing 2LPT term....
+14:10:45 | info    | Solving 2LPT Poisson equation
+14:10:45 | info    | Entering k-space Poisson solver...
+14:10:45 | info    | Performing forward transform.
+14:10:45 | info    | Performing backward transform.
+14:10:45 | info    | Done with k-space Poisson solver.
+14:10:45 | info    | Computing a gradient in k-space... 
+14:10:45 | info    | Done with k-space gradient. 
+14:10:45 | info    | Writing CDM velocities
+14:10:45 | info    | Computing a gradient in k-space... 
+14:10:45 | info    | Done with k-space gradient. 
+14:10:45 | info    | Writing CDM velocities
+14:10:45 | info    | Computing a gradient in k-space... 
+14:10:45 | info    | Done with k-space gradient. 
+14:10:45 | info    | Writing CDM velocities
+14:10:45 | info    | Computing dark matter displacements...
+14:10:45 | info    | Computing a gradient in k-space... 
+14:10:45 | info    | Done with k-space gradient. 
+14:10:45 | info    | max. x-displacement of HR particles is 1.380304 [mean dx]
+14:10:45 | info    | Writing CDM displacements
+14:10:45 | info    | Computing a gradient in k-space... 
+14:10:45 | info    | Done with k-space gradient. 
+14:10:45 | info    | max. y-displacement of HR particles is 1.472994 [mean dx]
+14:10:45 | info    | Writing CDM displacements
+14:10:45 | info    | Computing a gradient in k-space... 
+14:10:45 | info    | Done with k-space gradient. 
+14:10:45 | info    | max. z-displacement of HR particles is -1.285908 [mean dx]
+14:10:45 | info    | Writing CDM displacements
+14:10:45 | info    |       type   1 :        32768 [m=8.54761]
+14:10:45 | info    | Wrote output file '/home/tirth/data/Teaching/IMSc_School_2026/SBI/Conda/SBI_seed9404214_349728/snap_000'.
+14:10:45 | info    | Run finished succesfully on Wed Sep  9 14:10:45 2026 
+14:10:45 | info    | List of all configuration options:
+14:10:45 | info    |               cosmology/H0 = 67.80000000000001
+14:10:45 | info    |          cosmology/Omega_L = 0.692
+14:10:45 | info    |          cosmology/Omega_b = 0.0482
+14:10:45 | info    |          cosmology/Omega_m = 0.308
+14:10:45 | info    |            cosmology/dplus = 0.141690805222
+14:10:45 | info    |            cosmology/nspec = 0.961
+14:10:45 | info    |            cosmology/pnorm = 254.186302528
+14:10:45 | info    |          cosmology/sigma_8 = 0.829
+14:10:45 | info    |         cosmology/transfer = eisenstein
+14:10:45 | info    |            cosmology/vfact = 166.469945188
+14:10:45 | info    |               cosmology/w0 = -1.0
+14:10:45 | info    |               cosmology/wa = 0.0
+14:10:45 | info    |            output/filename = /home/tirth/data/Teaching/IMSc_School_2026/SBI/Conda/SBI_seed9404214_349728/snap_000
+14:10:45 | info    |              output/format = gadget2
+14:10:45 | info    |        output/gadget_lunit = kpc
+14:10:45 | info    |    output/gadget_num_files = 1
+14:10:45 | info    |           poisson/accuracy = 1e-05
+14:10:45 | info    |           poisson/fft_fine = yes
+14:10:45 | info    |         poisson/grad_order = 6
+14:10:45 | info    |      poisson/laplace_order = 6
+14:10:45 | info    |        poisson/post_smooth = 3
+14:10:45 | info    |         poisson/pre_smooth = 3
+14:10:45 | info    |           poisson/smoother = gs
+14:10:45 | info    |             random/seed[5] = 9404214
+14:10:45 | info    |              setup/baryons = no
+14:10:45 | info    |            setup/boxlength = 32.0
+14:10:45 | info    |               setup/do_SPH = yes
+14:10:45 | info    |            setup/kspace_TF = yes
+14:10:45 | info    |             setup/levelmax = 5
+14:10:45 | info    |             setup/levelmin = 5
+14:10:45 | info    |             setup/no_shift = yes
+14:10:45 | info    |          setup/offset(5,0) = 0
+14:10:45 | info    |          setup/offset(5,1) = 0
+14:10:45 | info    |          setup/offset(5,2) = 0
+14:10:45 | info    |          setup/periodic_TF = yes
+14:10:45 | info    |              setup/shift_x = 0
+14:10:45 | info    |              setup/shift_y = 0
+14:10:45 | info    |              setup/shift_z = 0
+14:10:45 | info    |            setup/size(5,0) = 32
+14:10:45 | info    |            setup/size(5,1) = 32
+14:10:45 | info    |            setup/size(5,2) = 32
+14:10:45 | info    |             setup/use_2LPT = yes
+14:10:45 | info    |              setup/use_LLA = no
+14:10:45 | info    |               setup/zstart = 8.0

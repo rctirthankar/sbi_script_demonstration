@@ -1,0 +1,39 @@
+[setup]
+boxlength = 32.0
+zstart = 8.0
+levelmin = 5
+levelmax = 5
+baryons = no
+use_2LPT = yes
+use_LLA = no
+periodic_TF = yes
+
+[cosmology]
+Omega_m = 0.308
+Omega_L = 0.692
+w0 = -1.0
+wa = 0.0
+Omega_b = 0.0482
+H0 = 67.80000000000001
+sigma_8 = 0.829
+nspec = 0.961
+transfer = eisenstein
+
+[random]
+seed[5] = 9404214
+
+[output]
+format = gadget2
+filename = /home/tirth/data/Teaching/IMSc_School_2026/SBI/Conda/SBI_seed9404214_346955/snap_000
+gadget_lunit = kpc
+gadget_num_files = 1
+
+[poisson]
+fft_fine = yes
+accuracy = 1e-05
+pre_smooth = 3
+post_smooth = 3
+smoother = gs
+laplace_order = 6
+grad_order = 6
+
